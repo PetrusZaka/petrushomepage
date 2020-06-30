@@ -1,0 +1,125 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p><label for="iNome">Nome</label>
+                <input type="text" name="tNome" id="iNome" size="20" maxlength="20" placeholder="Nome" /></p>
+            <p><label for="iNascimento">Nacimento</label>
+                <input type="date" name="tNascimento" id="iNascimento"></p>
+            <p><label for="iSexo">Sexo</label>
+                <input type="radio" name="tSexo" id="iSexo"><label for="iMasc">Masculino</label>
+                <input type="radio" name="tSexo" id="iSexo"><label for="iFem">Feminino</label></p>
+
+            <p><label for="iFormação">Formação</label>
+                <select name="tFormação" id="iFormação">
+                    <option value="EMCompleto">Ensino Médio Completo</option>
+                    <option value="EMIncompleto">Ensino Médio Incompleto</option>
+                    <option value="EMCursando">Ensino Médio (Cursando)</option>
+                    <option value="FSIncompleta">Formação Superior Incompleta</option>
+                    <option value="FSCompleta">Formação Superior Completa</option>
+                    <option value="FSCursando">Formação Superior (Cursando)</option>
+                </select>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+
+
+                <label for="iProfissão">Profissão</label>
+                <select name="tProfissão" id="iProfissão">
+                    <option value="ADM">Administrador</option>
+                    <option value="CDB">Corpo de Bombeiros</option>
+                    <option value="BANC">Bancario</option>
+                    <option value="Ped">Pedreiro</option>
+                    <option value="Biol">Biólogo</option>
+                    <option value="PROF">Professor</option>
+                    <option value="CC">Cientista da Computação</option>
+                    <option value="VEND">Vendedor</option>
+                    <option value="CORR">Corretor de Imóveis</option>
+                    <option value="COB">Cobrador</option>
+                    <option value="MOT">Motorista</option>
+                    <option value="COZ">Cozinheiro</option>
+                    <option value="POR">Porteiro</option>
+                    <option value="FAX">Faxineiro</option>
+                </select>
+            </p>
+            <p><label form="iCPF">CPF</label>
+                <input type="text" name="tCPF" id="iCPF" size="14" maxlength="14" placeholder="xxx.xxx.xxx-xx"></p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Contato</legend>
+            <p><label form="iEmail">Email</label>
+                <input type="mail" name="tEmail" id="iEmail" size="20" maxlength="40" placeholder="example@example.com">
+            </p>
+            <p><label form="iTelefeone">Telefone</label>
+                <input type="text" name="tTelefone" id="iTelefone" size="12" maxlength="12"
+                    placeholder="(xx)xxxxx-xxxx"></p>
+            <p><label form="iCelular">Celular</label>
+                <input type="text" name="tCelular" id="iCelular" size="20" maxlength="13" placeholder="(xx)xxxx-xxxx">
+            </p>
+            <p><label form="iSkype">Skype</label>
+                <input type="text" name="tSkype" id="iSkype" size="20" maxlength="20" placeholder="Skype"></p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Endereço</legend>
+            <p><label form="iLogradouro">Logradouro</label>
+                <input type="text" name="tLogradouro" id="iLogradouro" size="20" maxlength="60" placeholder="Sua Rua">
+            </p>
+            <p><label form="iNúmero">Número</label>
+                <input type="text" name="tNúmero" id="iNúmero" size="6" maxlength="10" placeholder="Número">&nbsp &nbsp
+                &nbsp &nbsp &nbsp &nbsp
+                <label form="iCEP">CEP</label>
+                <input type="text" name="tCEP" id="iCEP" size="10" maxlength="9" placeholder="xxxxx-xxx"></p>
+            <label form="iBairro">Bairro</label>
+            <input type="text" name="tBairro" id="iBairro" size="20" maxlength="20" placeholder="Bairro">&nbsp &nbsp
+            &nbsp &nbsp &nbsp &nbsp
+            <label form="iCidade">Cidade</label>
+            <input type="text" name="tCidade" id="iCidade" size="20" maxlength="20" placeholder="Cidade"></p>
+            <p><label form="iEstado">Estado</label>
+                <select name="tEstado" id="iEstado">
+                    <option value="AC">AC</option>
+                    <option value="AL">AL</option>
+                    <option value="AP">AP</option>
+                    <option value="AM">AM</option>
+                    <option value="BA">BA</option>
+                    <option value="CE">CE</option>
+                    <option value="DF">DF</option>
+                    <option value="ES">ES</option>
+                    <option value="GO">GO</option>
+                    <option value="MA">MA</option>
+                    <option value="MT">MT</option>
+                    <option value="MS">MS</option>
+                    <option value="MG">MG</option>
+                    <option value="PA">PA</option>
+                    <option value="PB">PB</option>
+                    <option value="PR">PR</option>
+                    <option value="PE">PE</option>
+                    <option value="PI">PI</option>
+                    <option value="RJ">RJ</option>
+                    <option value="RN">RN</option>
+                    <option value="RS">RS</option>
+                    <option value="RO">RO</option>
+                    <option value="RR">RR</option>
+                    <option value="SC">SC</option>
+                    <option value="SP">SP</option>
+                    <option value="SE">SC</option>
+                    <option value="TO">TO</option>
+            </p>
+            </select>
+            <p><label form="iComplemento">Complemento</label>
+                <input type="text" name="tComplemento" id="iComplemento" size="20" maxlength="20"
+                    placeholder="Bloco,APT, etc..."></p>
+        </fieldset>
+    </form>
+    <br>
+    <input type="submit" value="Salvar Cliente">
+    <input type="reset" value="Limpar Dados">
+
+</body>
+
+</html>

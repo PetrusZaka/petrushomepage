@@ -1,0 +1,110 @@
+body {
+width: 100%;
+height: 100%;
+margin: 0 auto;
+}
+
+ul {
+  padding: 0px!important;
+}
+.menu-principal {
+    width: 100%;
+    background-color: green;
+    height: 60px;
+}
+main {
+margin: 0 auto;
+width: 980px;
+position: relative;
+background-color: yellow;
+}
+
+.redes-sociais ul li {
+    margin-left: 20px;
+    display: inline-block;
+    float: left;
+    list-style: none;
+}
+    .redes-sociais {
+    width: 20%;
+    float: right;
+    }
+}
+.header-2 {
+    background-color: #ffffff;
+    width: 980px;
+    margin: 0 auto ;
+   padding: 16px;
+}
+.menu-urls {
+    height: 80px;
+    border-bottom: 3px solid #efefef;
+}
+.menu ul li {
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 10px;
+}
+.menu ul li a {
+    color: red;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.menu {
+    width: 100%;
+    float: left;
+    height: 80px;
+}
+
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.logo{
+    padding: 6px;
+    float: left;
+    width: 70;
+}
+.curriculo{
+    width: 60%;
+    position: absolute;
+    top: 164px;
+    left: 375px;
+}
+.reggae img {
+    position: absolute;
+    top: 275px;
+    left: -193px;
+    width: 1365px;
+    height: 382px;
+}
+.frase h1 {
+    position: absolute;
+    top: 100;
+    font-size: 25;
+    font-family: arial black;
+}
+.foto-curriculo {
+    height: 100%;
+    width: 40%;
+    position: absolute;
+    top: 191px;
+    left: 171px;
+}
+.menu ul li {
+    height: 50%;
+}
+.texto-curso h2 {
+    position: absolute;
+    left: 50;
+    top: 140px;
+    font-size: 50;
+}
+.texto-curso p {
+    position: absolute;
+    top: 296px;
+    left: 0px;
+    font-size: 25;
+}
